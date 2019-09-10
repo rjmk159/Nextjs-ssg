@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=functions.php&theme=escapade -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="wp-toolbar" lang="en"><script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Edit Themes ‹ My blog — WordPress</title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/wp-admin/admin-ajax.php',
+	pagenow = 'theme-editor',
+	typenow = '',
+	adminpage = 'theme-editor-php',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="dns-prefetch" href="http://s.w.org/">
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" href="./Edit Themes ‹ My blog — WordPress_files/load-styles.php" type="text/css" media="all">
+<link rel="stylesheet" id="wp-taxi-me-admin-style-css" href="./Edit Themes ‹ My blog — WordPress_files/admin-css.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-codemirror-css" href="./Edit Themes ‹ My blog — WordPress_files/codemirror.min.css" type="text/css" media="all">
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie-css'  href='http://appdev.psdtohubspot.com/wp-admin/css/ie.min.css?ver=5.2.2' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="fl-builder-admin-usage-css" href="./Edit Themes ‹ My blog — WordPress_files/fl-builder-admin-usage.css" type="text/css" media="all">
+<link rel="stylesheet" id="lla-main-css" href="./Edit Themes ‹ My blog — WordPress_files/limit-login-attempts.css" type="text/css" media="all">
+<link rel="stylesheet" id="WP REST API Controller-css" href="./Edit Themes ‹ My blog — WordPress_files/wp-rest-api-controller-admin.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="pods-styles-css" href="./Edit Themes ‹ My blog — WordPress_files/pods.css" type="text/css" media="all">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/appdev.psdtohubspot.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Edit Themes ‹ My blog — WordPress_files/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+		
+<script type="text/javascript">
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"1","time":"1563796637","secure":""};/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/load-scripts.php"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/code-editor.min.js"></script>
+<script type="text/javascript">
+jQuery.extend( wp.codeEditor.defaultSettings, {"codemirror":{"indentUnit":4,"indentWithTabs":true,"inputStyle":"contenteditable","lineNumbers":true,"lineWrapping":true,"styleActiveLine":true,"continueComments":true,"extraKeys":{"Ctrl-Space":"autocomplete","Ctrl-\/":"toggleComment","Cmd-\/":"toggleComment","Alt-F":"findPersistent","Ctrl-F":"findPersistent","Cmd-F":"findPersistent"},"direction":"ltr","gutters":[],"mode":"php","autoCloseBrackets":true,"autoCloseTags":true,"matchBrackets":true,"matchTags":{"bothTags":true}},"csslint":{"errors":true,"box-model":true,"display-property-grouping":true,"duplicate-properties":true,"known-properties":true,"outline-none":true},"jshint":{"boss":true,"curly":true,"eqeqeq":true,"eqnull":true,"es3":true,"expr":true,"immed":true,"noarg":true,"nonbsp":true,"onevar":true,"quotmark":"single","trailing":true,"undef":true,"unused":true,"browser":true,"globals":{"_":false,"Backbone":false,"jQuery":false,"JSON":false,"wp":false}},"htmlhint":{"tagname-lowercase":true,"attr-lowercase":true,"attr-value-double-quotes":false,"doctype-first":false,"tag-pair":true,"spec-char-escape":true,"id-unique":true,"src-not-empty":true,"attr-no-duplication":true,"alt-require":true,"space-tab-mixed-disabled":"tab","attr-unsafe-chars":true}} );
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/wp-util.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/wp-sanitize.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/core.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/wp-a11y.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/theme-plugin-editor.min.js"></script>
+<script type="text/javascript">
+wp.themePluginEditor.l10n = {"saveAlert":"The changes you made will be lost if you navigate away from this page.","saveError":"Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP.","lintError":{"singular":"There is %d error which must be fixed before you can update this file.","plural":"There are %d errors which must be fixed before you can update this file."}};
+jQuery( function( $ ) { wp.themePluginEditor.init( $( "#template" ), {"codeEditor":{"codemirror":{"indentUnit":4,"indentWithTabs":true,"inputStyle":"contenteditable","lineNumbers":true,"lineWrapping":true,"styleActiveLine":true,"continueComments":true,"extraKeys":{"Ctrl-Space":"autocomplete","Ctrl-\/":"toggleComment","Cmd-\/":"toggleComment","Alt-F":"findPersistent","Ctrl-F":"findPersistent","Cmd-F":"findPersistent"},"direction":"ltr","gutters":[],"mode":"php","autoCloseBrackets":true,"autoCloseTags":true,"matchBrackets":true,"matchTags":{"bothTags":true}},"csslint":{"errors":true,"box-model":true,"display-property-grouping":true,"duplicate-properties":true,"known-properties":true,"outline-none":true},"jshint":{"boss":true,"curly":true,"eqeqeq":true,"eqnull":true,"es3":true,"expr":true,"immed":true,"noarg":true,"nonbsp":true,"onevar":true,"quotmark":"single","trailing":true,"undef":true,"unused":true,"browser":true,"globals":{"_":false,"Backbone":false,"jQuery":false,"JSON":false,"wp":false}},"htmlhint":{"tagname-lowercase":true,"attr-lowercase":true,"attr-value-double-quotes":false,"doctype-first":false,"tag-pair":true,"spec-char-escape":true,"id-unique":true,"src-not-empty":true,"attr-no-duplication":true,"alt-require":true,"space-tab-mixed-disabled":"tab","attr-unsafe-chars":true}}} ); } )
+wp.themePluginEditor.themeOrPlugin = "theme";
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/fl-builder-admin-usage.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/moxie.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/plupload.min.js"></script>
+<!--[if lt IE 8]>
+<script type='text/javascript' src='http://appdev.psdtohubspot.com/wp-includes/js/json2.min.js?ver=2015-05-03'></script>
+<![endif]-->
+<script type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/mediaelement-migrate.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+	<link id="wp-admin-canonical" rel="canonical" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=functions.php&amp;theme=escapade">
+	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, document.getElementById( 'wp-admin-canonical' ).href + window.location.hash );
+		}
+	</script>
+	<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#a0a5aa","focus":"#00a0d2","current":"#fff"}};</script>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	<style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 400;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 500;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 700;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Black.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 900;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
+}</style></head>
+<body class="wp-admin wp-core-ui js theme-editor-php auto-fold admin-bar branch-5-2 version-5-2-2 admin-color-fresh locale-en customize-support sticky-menu svg">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript">
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain)
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+	
+<div id="wpwrap">
+
+<div id="adminmenumain" role="navigation" aria-label="Main menu">
+<a href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=functions.php&amp;theme=escapade#wpbody-content" class="screen-reader-shortcut">Skip to main content</a>
+<a href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=functions.php&amp;theme=escapade#wp-toolbar" class="screen-reader-shortcut">Skip to toolbar</a>
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" id="menu-dashboard">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/index.php" class="wp-first-item wp-has-submenu wp-not-current-submenu menu-top menu-top-first menu-icon-dashboard menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-dashboard"><br></div><div class="wp-menu-name">Dashboard</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Dashboard</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/index.php" class="wp-first-item">Home</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/update-core.php">Updates <span class="update-plugins count-4"><span class="update-count">4</span></span></a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" id="menu-posts">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/edit.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-post"><br></div><div class="wp-menu-name">Posts</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Posts</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/edit.php" class="wp-first-item">All Posts</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/post-new.php">Add New</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/edit-tags.php?taxonomy=category">Categories</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/edit-tags.php?taxonomy=post_tag">Tags</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/upload.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-media"><br></div><div class="wp-menu-name">Media</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Media</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/upload.php" class="wp-first-item">Library</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/media-new.php">Add New</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/edit.php?post_type=page" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-page"><br></div><div class="wp-menu-name">Pages</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Pages</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/edit.php?post_type=page" class="wp-first-item">All Pages</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/post-new.php?post_type=page">Add New</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments" id="menu-comments">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/edit-comments.php" class="wp-not-current-submenu menu-top menu-icon-comments"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-comments"><br></div><div class="wp-menu-name">Comments <span class="awaiting-mod count-0"><span class="pending-count" aria-hidden="true">0</span><span class="comments-in-moderation-text screen-reader-text">0 Comments in moderation</span></span></div></a></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-location" id="menu-posts-location">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/edit.php?post_type=location" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-location" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-post"><br></div><div class="wp-menu-name">Locations</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Locations</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/edit.php?post_type=location" class="wp-first-item">All Locations</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/post-new.php?post_type=location">Add New</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_ninja-forms menu-top-last" id="toplevel_page_ninja-forms"><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=ninja-forms" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_ninja-forms menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-feedback"><br></div><div class="wp-menu-name">Ninja Forms</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Ninja Forms</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=ninja-forms" class="wp-first-item">Dashboard</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=ninja-forms#new-form">Add New</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/edit.php?post_type=nf_sub">Submissions</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=nf-import-export">Import / Export</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=nf-settings">Settings</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=nf-system-status">Get Help</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=ninja-forms#apps">Add-Ons</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/themes.php" class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" aria-haspopup="false"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-appearance"><br></div><div class="wp-menu-name">Appearance</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Appearance</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/themes.php" class="wp-first-item">Themes</a></li><li class="hide-if-no-customize"><a href="http://appdev.psdtohubspot.com/wp-admin/customize.php?return=%2Fwp-admin%2Ftheme-editor.php%3Ffile%3Dfunctions.php%26theme%3Descapade" class="hide-if-no-customize">Customize</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/widgets.php">Widgets</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/nav-menus.php">Menus</a></li><li class="hide-if-no-customize"><a href="http://appdev.psdtohubspot.com/wp-admin/customize.php?return=%2Fwp-admin%2Ftheme-editor.php%3Ffile%3Dfunctions.php%26theme%3Descapade&amp;autofocus%5Bcontrol%5D=header_image" class="hide-if-no-customize">Header</a></li><li class="hide-if-no-customize"><a href="http://appdev.psdtohubspot.com/wp-admin/customize.php?return=%2Fwp-admin%2Ftheme-editor.php%3Ffile%3Dfunctions.php%26theme%3Descapade&amp;autofocus%5Bcontrol%5D=background_image" class="hide-if-no-customize">Background</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/themes.php?page=custom-header">Header</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/themes.php?page=custom-background">Background</a></li><li class="current"><a href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php" class="current" aria-current="page">Theme Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/plugins.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-plugins"><br></div><div class="wp-menu-name">Plugins <span class="update-plugins count-4"><span class="plugin-count">4</span></span></div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Plugins <span class="update-plugins count-4"><span class="plugin-count">4</span></span></li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/plugins.php" class="wp-first-item">Installed Plugins</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/plugin-install.php">Add New</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/plugin-editor.php">Plugin Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/users.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-users"><br></div><div class="wp-menu-name">Users</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Users</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/users.php" class="wp-first-item">All Users</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/user-new.php">Add New</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/profile.php">Your Profile</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/tools.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-tools"><br></div><div class="wp-menu-name">Tools</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Tools</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/tools.php" class="wp-first-item">Available Tools</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/import.php">Import</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/export.php">Export</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/site-health.php">Site Health</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/tools.php?page=wp-rest-api-controller-settings">REST API Controller</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/tools.php?page=export_personal_data">Export Personal Data</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/tools.php?page=remove_personal_data">Erase Personal Data</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href="http://appdev.psdtohubspot.com/wp-admin/options-general.php" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-admin-settings"><br></div><div class="wp-menu-name">Settings</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Settings</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/options-general.php" class="wp-first-item">General</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/options-writing.php">Writing</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/options-reading.php">Reading</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/options-discussion.php">Discussion</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/options-media.php">Media</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/options-permalink.php">Permalinks</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/privacy.php">Privacy</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/options-general.php?page=wptaxime_options_page">WP Taxi Me</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/options-general.php?page=limit-login-attempts">Limit Login Attempts</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/options-general.php?page=fl-builder-settings">Beaver Builder</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_pods menu-top-first menu-top-last" id="toplevel_page_pods"><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=pods" class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_pods menu-top-first menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class="wp-menu-image dashicons-before dashicons-pods"><br></div><div class="wp-menu-name">Pods Admin</div></a>
+	<ul class="wp-submenu wp-submenu-wrap"><li class="wp-submenu-head" aria-hidden="true">Pods Admin</li><li class="wp-first-item"><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=pods" class="wp-first-item">Edit Pods</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=pods-add-new">Add New</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=pods-components">Components</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/edit.php?post_type=_pods_template">– Templates</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=pods-settings">Settings</a></li><li><a href="http://appdev.psdtohubspot.com/wp-admin/admin.php?page=pods-help">Help</a></li></ul></li><li id="collapse-menu" class="hide-if-no-js"><button type="button" id="collapse-button" aria-label="Collapse Main menu" aria-expanded="true"><span class="collapse-button-icon" aria-hidden="true"></span><span class="collapse-button-label">Collapse menu</span></button></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=functions.php&amp;theme=escapade#" aria-expanded="false"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a></li><li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://appdev.psdtohubspot.com/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu"><li id="wp-admin-bar-about"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/about.php">About WordPress</a></li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu"><li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org/">WordPress.org</a></li><li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentation</a></li><li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support/">Support</a></li><li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li></ul></div></li><li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://appdev.psdtohubspot.com/">My blog</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu"><li id="wp-admin-bar-view-site"><a class="ab-item" href="http://appdev.psdtohubspot.com/">Visit Site</a></li></ul></div></li><li id="wp-admin-bar-updates"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/update-core.php" title="4 Plugin Updates"><span class="ab-icon"></span><span class="ab-label">4</span><span class="screen-reader-text">4 Plugin Updates</span></a></li><li id="wp-admin-bar-comments"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 Comments in moderation</span></a></li><li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://appdev.psdtohubspot.com/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu"><li id="wp-admin-bar-new-post"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/post-new.php">Post</a></li><li id="wp-admin-bar-new-media"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/media-new.php">Media</a></li><li id="wp-admin-bar-new-page"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/post-new.php?post_type=page">Page</a></li><li id="wp-admin-bar-new-location"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/post-new.php?post_type=location">Location</a></li><li id="wp-admin-bar-new-user"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/user-new.php">User</a></li></ul></div></li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu"><li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://appdev.psdtohubspot.com/wp-admin/profile.php">Howdy, <span class="display-name">admin</span><img alt="" src="./Edit Themes ‹ My blog — WordPress_files/7870dbfbd20496da686e8bf1b0214fee.png" srcset="http://1.gravatar.com/avatar/7870dbfbd20496da686e8bf1b0214fee?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26"></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu"><li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://appdev.psdtohubspot.com/wp-admin/profile.php"><img alt="" src="./Edit Themes ‹ My blog — WordPress_files/7870dbfbd20496da686e8bf1b0214fee(1).png" srcset="http://1.gravatar.com/avatar/7870dbfbd20496da686e8bf1b0214fee?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64"><span class="display-name">admin</span></a></li><li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-admin/profile.php">Edit My Profile</a></li><li id="wp-admin-bar-logout"><a class="ab-item" href="http://appdev.psdtohubspot.com/wp-login.php?action=logout&amp;_wpnonce=05f5bcefe0">Log Out</a></li></ul></div></li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://appdev.psdtohubspot.com/wp-login.php?action=logout&amp;_wpnonce=05f5bcefe0">Log Out</a>
+					</div>
+
+		
+<div id="wpbody" role="main">
+
+<div id="wpbody-content">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+						
+							<li id="tab-link-overview" class="active">
+								<a href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=functions.php&amp;theme=escapade#tab-panel-overview" aria-controls="tab-panel-overview">
+									Overview								</a>
+							</li>
+													</ul>
+					</div>
+
+										<div class="contextual-help-sidebar">
+						<p><strong>For more information:</strong></p><p><a href="https://codex.wordpress.org/Theme_Development">Documentation on Theme Development</a></p><p><a href="https://codex.wordpress.org/Using_Themes">Documentation on Using Themes</a></p><p><a href="https://codex.wordpress.org/Editing_Files">Documentation on Editing Files</a></p><p><a href="https://codex.wordpress.org/Template_Tags">Documentation on Template Tags</a></p><p><a href="https://wordpress.org/support/">Support</a></p>					</div>
+					
+					<div class="contextual-help-tabs-wrap">
+						
+							<div id="tab-panel-overview" class="help-tab-content active">
+								<p>You can use the theme editor to edit the individual CSS and PHP files which make up your theme.</p><p>Begin by choosing a theme to edit from the dropdown menu and clicking the Select button. A list then appears of the theme’s template files. Clicking once on any file name causes the file to appear in the large Editor box.</p><p>For PHP files, you can use the Documentation dropdown to select from functions recognized in that file. Look Up takes you to a web page with reference material about that particular function.</p><p id="editor-keyboard-trap-help-1">When using a keyboard to navigate:</p><ul><li id="editor-keyboard-trap-help-2">In the editing area, the Tab key enters a tab character.</li><li id="editor-keyboard-trap-help-3">To move away from this area, press the Esc key followed by the Tab key.</li><li id="editor-keyboard-trap-help-4">Screen reader users: when in forms mode, you may need to press the Esc key twice.</li></ul><p>After typing in your edits, click Update File.</p><p><strong>Advice:</strong> Think very carefully about your site crashing if you are live-editing the theme currently in use.</p><p>Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="https://developer.wordpress.org/themes/advanced-topics/child-themes/">child theme</a> instead.</p>							</div>
+												</div>
+				</div>
+			</div>
+				</div>
+				<div id="screen-meta-links">
+					<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false">Help</button>
+			</div>
+				</div>
+		<div class="wrap">
+<h1>Edit Themes</h1><div class="notice notice-warning is-dismissible"><p>Thank you for installing WP Taxi Me! This plugin needs to be set up before it works. Please visit the <a href="http://appdev.psdtohubspot.com/wp-admin/options-general.php?page=wptaxime_options_page">WP Taxi Me Settings page</a> to set up the plugin.</p><button type="button" class="notice-dismiss"><span class="screen-reader-text">Dismiss this notice.</span></button></div>
+
+
+<div class="fileedit-sub">
+<div class="alignleft">
+<h2>
+Escapade: Theme Functions <span>(functions.php)</span></h2>
+</div>
+<div class="alignright">
+	<form action="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php" method="get">
+		<strong><label for="theme">Select theme to edit: </label></strong>
+		<select name="theme" id="theme">
+
+	<option value="escapade" selected="selected">Escapade</option>
+	<option value="primer">Primer</option>
+	<option value="twentynineteen">Twenty Nineteen</option>
+	<option value="twentyseventeen">Twenty Seventeen</option>
+	<option value="twentysixteen">Twenty Sixteen</option>		</select>
+		<input type="submit" name="Submit" id="Submit" class="button" value="Select">	</form>
+</div>
+<br class="clear">
+</div>
+<div id="templateside">
+	<h2 id="theme-files-label">Theme Files</h2>
+	<ul role="tree" aria-labelledby="theme-files-label">
+					<li class="howto">
+				This child theme inherits templates from a parent theme, <a href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?theme=primer" tabindex="0" role="treeitem">Primer</a>.			</li>
+				<li role="treeitem" tabindex="-1" aria-expanded="true" aria-level="1" aria-posinset="1" aria-setsize="1">
+			<ul role="group">
+						<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=style.css&amp;theme=escapade" aria-level="2" aria-setsize="1" aria-posinset="7">
+				Stylesheet<br><span class="nonessential">(style.css)</span>			</a>
+		</li>
+				<li role="none" class="current-file">
+			<a role="treeitem" tabindex="-1" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=functions.php&amp;theme=escapade" aria-level="2" aria-setsize="2" aria-posinset="7">
+				<span class="notice notice-info">Theme Functions<br><span class="nonessential">(functions.php)</span></span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=editor-style-rtl.css&amp;theme=escapade" aria-level="2" aria-setsize="3" aria-posinset="7">
+				Visual Editor RTL Stylesheet<br><span class="nonessential">(editor-style-rtl.css)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=editor-style.css&amp;theme=escapade" aria-level="2" aria-setsize="4" aria-posinset="7">
+				Visual Editor Stylesheet<br><span class="nonessential">(editor-style.css)</span>			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=style-rtl.css&amp;theme=escapade" aria-level="2" aria-setsize="5" aria-posinset="7">
+				style-rtl.css			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=package-lock.json&amp;theme=escapade" aria-level="2" aria-setsize="6" aria-posinset="7">
+				package-lock.json			</a>
+		</li>
+				<li role="none" class="">
+			<a role="treeitem" tabindex="-1" href="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php?file=header.php&amp;theme=escapade" aria-level="2" aria-setsize="7" aria-posinset="7">
+				Theme Header<br><span class="nonessential">(header.php)</span>			</a>
+		</li>
+					</ul>
+		</li>
+	</ul>
+</div>
+
+	<form name="template" id="template" action="http://appdev.psdtohubspot.com/wp-admin/theme-editor.php" method="post">
+		<input type="hidden" id="nonce" name="nonce" value="ac5bc35bca"><input type="hidden" name="_wp_http_referer" value="/wp-admin/theme-editor.php?file=functions.php&amp;theme=escapade">		<div>
+			<label for="newcontent" id="theme-plugin-editor-label">Selected file content:</label>
+			<textarea cols="70" rows="30" name="newcontent" id="newcontent" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style="display: none;">&lt;?php
+
+/**
+ * Child theme version.
+ *
+ * @since 1.0.0
+ *
+ * @var string
+ */
+define( 'PRIMER_CHILD_VERSION', '1.1.2' );
+
+/**
+ * Move some elements around.
+ *
+ * @action template_redirect
+ * @since  1.0.0
+ */
+function escapade_move_elements() {
+
+	remove_action( 'primer_header',                 'primer_add_hero',              7 );
+	remove_action( 'primer_after_header',           'primer_add_page_title',        12 );
+	remove_action( 'primer_site_info',              'primer_add_social_navigation', 7 );
+	remove_action( 'primer_before_site_navigation', 'primer_add_mobile_menu' );
+
+	add_action( 'primer_pre_hero', 'primer_video_header' );
+
+	if ( ! is_front_page() || ! is_active_sidebar( 'hero' ) ) {
+
+		add_action( 'primer_hero', 'primer_add_page_title', 12 );
+
+	}
+
+}
+add_action( 'template_redirect', 'escapade_move_elements' );
+
+/**
+ * Add mobile menu to header.
+ *
+ * @action primer_header
+ * @since  1.0.0
+ */
+function escapade_add_mobile_menu() {
+
+	get_template_part( 'templates/parts/mobile-menu' );
+
+}
+add_action( 'primer_header', 'escapade_add_mobile_menu', 0 );
+
+/**
+ * Add social links to primary navigation area.
+ *
+ * @action primer_after_header
+ * @since  1.0.0
+ */
+function escapade_add_social_menu() {
+
+	if ( has_nav_menu( 'social' ) ) {
+
+		get_template_part( 'templates/parts/social-menu' );
+
+	}
+
+}
+add_action( 'primer_after_header', 'escapade_add_social_menu', 30 );
+
+/**
+ * Set custom logo args.
+ *
+ * @filter primer_custom_logo_args
+ * @since  1.0.0
+ *
+ * @param  array $args
+ *
+ * @return array
+ */
+function escapade_custom_logo_args( $args ) {
+
+	$args['width']  = 180;
+	$args['height'] = 80;
+
+	return $args;
+
+}
+add_filter( 'primer_custom_logo_args', 'escapade_custom_logo_args' );
+
+/**
+ * Set layouts.
+ *
+ * @filter primer_layouts
+ * @since  1.0.0
+ *
+ * @param  array $layouts
+ *
+ * @return array
+ */
+function escapade_layouts( $layouts ) {
+
+	unset(
+		$layouts['three-column-default'],
+		$layouts['three-column-center'],
+		$layouts['three-column-reversed']
+	);
+
+	return $layouts;
+
+}
+add_filter( 'primer_layouts', 'escapade_layouts' );
+add_filter( 'primer_page_widths', '__return_empty_array' );
+
+/**
+ * Set fonts.
+ *
+ * @filter primer_fonts
+ * @since  1.0.0
+ *
+ * @param  array $fonts
+ *
+ * @return array
+ */
+function escapade_fonts( $fonts ) {
+
+	$fonts[] = 'Droid Serif';
+	$fonts[] = 'Oswald';
+
+	return $fonts;
+
+}
+add_filter( 'primer_fonts', 'escapade_fonts' );
+
+/**
+ * Set font types.
+ *
+ * @filter primer_font_types
+ * @since  1.0.0
+ *
+ * @param  array $font_types
+ *
+ * @return array
+ */
+function escapade_font_types( $font_types ) {
+
+	$overrides = array(
+		'site_title_font' =&gt; array(
+			'default' =&gt; 'Oswald',
+		),
+		'navigation_font' =&gt; array(
+			'default' =&gt; 'Oswald',
+		),
+		'heading_font' =&gt; array(
+			'default' =&gt; 'Oswald',
+		),
+		'primary_font' =&gt; array(
+			'default' =&gt; 'Droid Serif',
+		),
+		'secondary_font' =&gt; array(
+			'default' =&gt; 'Droid Serif',
+		),
+	);
+
+	return primer_array_replace_recursive( $font_types, $overrides );
+
+}
+add_filter( 'primer_font_types', 'escapade_font_types' );
+
+/**
+ * Set colors.
+ *
+ * @filter primer_colors
+ * @since  1.0.0
+ *
+ * @param  array $colors
+ *
+ * @return array
+ */
+function escapade_colors( $colors ) {
+
+	unset(
+		$colors['content_background_color'],
+		$colors['footer_widget_content_background_color'],
+		$colors['tagline_text_color']
+	);
+
+	$overrides = array(
+		/**
+		 * Text colors
+		 */
+		'header_textcolor' =&gt; array(
+			'default' =&gt; '#757575',
+		),
+		'tagline_text_color' =&gt; array(
+			'default' =&gt; '#757575',
+		),
+		'hero_text_color' =&gt; array(
+			'default' =&gt; '#ffffff',
+		),
+		'menu_text_color' =&gt; array(
+			'default'  =&gt; '#757575',
+			'css'      =&gt; array(
+				'header .social-menu a,
+				header .social-menu a:visited' =&gt; array(
+					'color' =&gt; '%1$s',
+				),
+			),
+			'rgba_css' =&gt; array(
+				'header .social-menu a:hover, header .social-menu a:visited:hover' =&gt; array(
+					'color' =&gt; 'rgba(%1$s, 0.8)',
+				),
+			),
+		),
+		'heading_text_color' =&gt; array(
+			'default' =&gt; '#353535',
+		),
+		'primary_text_color' =&gt; array(
+			'default' =&gt; '#252525',
+		),
+		'secondary_text_color' =&gt; array(
+			'default' =&gt; '#757575',
+		),
+		'footer_widget_heading_text_color' =&gt; array(
+			'default' =&gt; '#757575',
+		),
+		'footer_widget_text_color' =&gt; array(
+			'default' =&gt; '#757575',
+		),
+		'footer_menu_text_color' =&gt; array(
+			'default' =&gt; '#757575',
+		),
+		'footer_text_color' =&gt; array(
+			'default' =&gt; '#757575',
+		),
+		/**
+		 * Link / Button colors
+		 */
+		'link_color' =&gt; array(
+			'default'  =&gt; '#55b74e',
+			'css'      =&gt; array(
+				'.main-navigation ul li:hover, .main-navigation li.current-menu-item, .main-navigation ul li.current-menu-item &gt; a:hover, .main-navigation ul li.current-menu-item &gt; a:visited:hover, .woocommerce-cart-menu-item .woocommerce.widget_shopping_cart p.buttons a:hover' =&gt; array(
+					'background-color' =&gt; '%1$s',
+				),
+			),
+		),
+		'button_color' =&gt; array(
+			'default' =&gt; '#55b74e',
+		),
+		'button_text_color' =&gt; array(
+			'default'  =&gt; '#ffffff',
+			'css' =&gt; array(
+				'.main-navigation ul &gt; li:hover &gt; a, .main-navigation ul &gt; li:hover &gt; a:hover, .main-navigation ul &gt; li:hover &gt; a:visited, .main-navigation ul &gt; li:hover &gt; a:visited:hover, .main-navigation ul li.current-menu-item &gt; a' =&gt; array(
+					'color' =&gt; '%1$s',
+				),
+			),
+		),
+		/**
+		 * Background colors
+		 */
+		'background_color' =&gt; array(
+			'default' =&gt; '#ffffff',
+		),
+		'hero_background_color' =&gt; array(
+			'default' =&gt; '#414242',
+		),
+		'menu_background_color' =&gt; array(
+			'default' =&gt; '#f5f5f5',
+			'css'     =&gt; array(
+				'.side-masthead' =&gt; array(
+					'background-color' =&gt; '%1$s',
+				),
+			),
+		),
+		'footer_widget_background_color' =&gt; array(
+			'default' =&gt; '#eeeeee',
+		),
+		'footer_background_color' =&gt; array(
+			'default' =&gt; '#ffffff',
+		),
+	);
+
+	return primer_array_replace_recursive( $colors, $overrides );
+
+}
+add_filter( 'primer_colors', 'escapade_colors' );
+
+/**
+ * Set color schemes.
+ *
+ * @filter primer_color_schemes
+ * @since  1.0.0
+ *
+ * @param  array $color_schemes
+ *
+ * @return array
+ */
+function escapade_color_schemes( $color_schemes ) {
+
+	unset( $color_schemes['iguana'] );
+
+	$overrides = array(
+		'blush' =&gt; array(
+			'colors' =&gt; array(
+				'link_color'   =&gt; $color_schemes['blush']['base'],
+				'button_color' =&gt; $color_schemes['blush']['base'],
+			),
+		),
+		'bronze' =&gt; array(
+			'colors' =&gt; array(
+				'link_color'   =&gt; $color_schemes['bronze']['base'],
+				'button_color' =&gt; $color_schemes['bronze']['base'],
+			),
+		),
+		'canary' =&gt; array(
+			'colors' =&gt; array(
+				'link_color'   =&gt; $color_schemes['canary']['base'],
+				'button_color' =&gt; $color_schemes['canary']['base'],
+			),
+		),
+		'cool' =&gt; array(
+			'colors' =&gt; array(
+				'link_color'   =&gt; $color_schemes['cool']['base'],
+				'button_color' =&gt; $color_schemes['cool']['base'],
+			),
+		),
+		'dark' =&gt; array(
+			'colors' =&gt; array(
+				// Text
+				'header_textcolor'                 =&gt; '#ffffff',
+				'tagline_text_color'               =&gt; '#999999',
+				'menu_text_color'                  =&gt; '#ffffff',
+				'heading_text_color'               =&gt; '#ffffff',
+				'primary_text_color'               =&gt; '#e5e5e5',
+				'secondary_text_color'             =&gt; '#c1c1c1',
+				'footer_widget_heading_text_color' =&gt; '#ffffff',
+				'footer_widget_text_color'         =&gt; '#ffffff',
+				// Backgrounds
+				'background_color'               =&gt; '#191919',
+				'hero_background_color'          =&gt; '#282828',
+				'menu_background_color'          =&gt; '#212121',
+				'footer_widget_background_color' =&gt; '#282828',
+				'footer_background_color'        =&gt; '#191919',
+			),
+		),
+		'muted' =&gt; array(
+			'colors' =&gt; array(
+				// Text
+				'header_textcolor'       =&gt; '#ffffff',
+				'tagline_text_color'     =&gt; '#ffffff',
+				'menu_text_color'        =&gt; '#ffffff',
+				'heading_text_color'     =&gt; '#4f5875',
+				'primary_text_color'     =&gt; '#4f5875',
+				'secondary_text_color'   =&gt; '#888c99',
+				'footer_menu_text_color' =&gt; $color_schemes['muted']['base'],
+				'footer_text_color'      =&gt; '#4f5875',
+				// Links &amp; Buttons
+				'link_color'   =&gt; $color_schemes['muted']['base'],
+				'button_color' =&gt; $color_schemes['muted']['base'],
+				// Backgrounds
+				'background_color'               =&gt; '#ffffff',
+				'hero_background_color'          =&gt; '#4f5875',
+				'menu_background_color'          =&gt; '#5a6175',
+				'footer_widget_background_color' =&gt; '#d5d6e0',
+				'footer_background_color'        =&gt; '#ffffff',
+			),
+		),
+		'plum' =&gt; array(
+			'colors' =&gt; array(
+				'link_color'   =&gt; $color_schemes['plum']['base'],
+				'button_color' =&gt; $color_schemes['plum']['base'],
+			),
+		),
+		'rose' =&gt; array(
+			'colors' =&gt; array(
+				'link_color'   =&gt; $color_schemes['rose']['base'],
+				'button_color' =&gt; $color_schemes['rose']['base'],
+			),
+		),
+		'tangerine' =&gt; array(
+			'colors' =&gt; array(
+				'link_color'   =&gt; $color_schemes['tangerine']['base'],
+				'button_color' =&gt; $color_schemes['tangerine']['base'],
+			),
+		),
+		'turquoise' =&gt; array(
+			'colors' =&gt; array(
+				'link_color'   =&gt; $color_schemes['turquoise']['base'],
+				'button_color' =&gt; $color_schemes['turquoise']['base'],
+			),
+		),
+	);
+
+	return primer_array_replace_recursive( $color_schemes, $overrides );
+
+}
+add_filter( 'primer_color_schemes', 'escapade_color_schemes' );
+
+
+add_role(
+	'biker',
+	__( 'Biker' ),
+	array(
+		'read'         =&gt; true,
+		'edit_posts'   =&gt; true,
+	)
+);
+function radkurier_auth_function($data, $user) { 
+	$data['user_role'] = $user-&gt;roles; 
+	$data['user_id'] = $user-&gt;ID; 
+	$data['city'] = $user-&gt;city; 
+	$data['phone'] = $user-&gt;phone; 
+	$data['avatar']= get_avatar_url($user-&gt;ID);
+	return $data; 
+} 
+add_filter( 'jwt_auth_token_before_dispatch', 'radkurier_auth_function', 10, 2 );
+
+if ( ! function_exists( 'radkurier_modify_contact_methods' ) ) :
+
+    function radkurier_modify_contact_methods( $contactmethods ) {
+        $contactmethods['city'] = __( 'City' );
+        $contactmethods['phone'] = __( 'Phone' );
+        return $contactmethods;
+    }
+    add_filter('user_contactmethods','radkurier_modify_contact_methods', 10, 1);
+
+endif;
+
+function radkurier_add_city() {
+	register_rest_field( 'user',
+		'city',
+		array(
+			'get_callback'  =&gt; 'radkurier_get_term_meta_field',
+			'update_callback'   =&gt; 'radkurier_update_term_meta_field',
+			'schema'            =&gt; null,
+		 )
+	);
+}
+function radkurier_add_phone() {
+	register_rest_field( 'user',
+			'phone',
+				array(
+				'get_callback'  =&gt; 'radkurier_get_term_meta_field',
+				'update_callback'   =&gt; 'radkurier_update_term_meta_field',
+				'schema'            =&gt; null,
+			));
+}
+add_action( 'rest_api_init', 'radkurier_add_city' );
+add_action( 'rest_api_init', 'radkurier_add_phone' );
+		
+function radkurier_update_term_meta_field( $value, $object, $field_name ) {
+    if ( ! $value || ! is_string( $value ) ) {
+        return;
+    }
+    return update_term_meta( $object-&gt;ID, $field_name, $value );
+}
+function radkurier_get_term_meta_field( $object, $field_name, $request ) {
+    return get_term_meta( $object[ 'id' ], $field_name, true );
+}</textarea><div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-focused"><div class="CodeMirror-vscrollbar" cm-not-content="true" style="display: block; bottom: 0px; width: 18px; pointer-events: none;"><div style="min-width: 1px; height: 9458px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true" style="height: 18px; pointer-events: none;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 33px; margin-bottom: 0px; border-right-width: 30px; min-height: 9458px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 8064px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""></div><div class="CodeMirror-code" role="textbox" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" tabindex="0" aria-multiline="true" aria-labelledby="theme-plugin-editor-label" aria-describedby="editor-keyboard-trap-help-1 editor-keyboard-trap-help-2 editor-keyboard-trap-help-3 editor-keyboard-trap-help-4" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">447</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">if</span> ( <span class="cm-operator">!</span> <span class="cm-variable-2">$value</span> <span class="cm-operator">||</span> <span class="cm-operator">!</span> <span class="cm-builtin">is_string</span>( <span class="cm-variable-2">$value</span> ) ) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">448</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-keyword">return</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">449</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  }</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">450</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">return</span> <span class="cm-variable">update_term_meta</span>( <span class="cm-variable-2">$object</span><span class="cm-operator">-&gt;</span><span class="cm-variable">ID</span>, <span class="cm-variable-2">$field_name</span>, <span class="cm-variable-2">$value</span> );</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">451</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">452</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">function</span> <span class="cm-def">radkurier_get_term_meta_field</span>( <span class="cm-variable-2">$object</span>, <span class="cm-variable-2">$field_name</span>, <span class="cm-variable-2">$request</span> ) {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">453</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-keyword">return</span> <span class="cm-variable">get_term_meta</span>( <span class="cm-variable-2">$object</span>[ <span class="cm-string">'id'</span> ], <span class="cm-variable-2">$field_name</span>, <span class="cm-atom">true</span> );</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">454</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">455</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">456</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">457</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">458</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">/*</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">459</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">* Creating a function to create our CPT</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">460</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">*/</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">461</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">462</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">function</span> <span class="cm-def">custom_post_type</span>() {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">463</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">464</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// Set UI labels for Custom Post Type</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">465</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable-2">$labels</span> <span class="cm-operator">=</span> <span class="cm-keyword">array</span>(</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">466</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'name'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-variable">_x</span>( <span class="cm-string">'Movies'</span>, <span class="cm-string">'Post Type General Name'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">467</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'singular_name'</span> &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">_x</span>( <span class="cm-string">'Movie'</span>, <span class="cm-string">'Post Type Singular Name'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">468</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'menu_name'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Movies'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">469</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'parent_item_colon'</span> &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Parent Movie'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">470</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'all_items'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'All Movies'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">471</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'view_item'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'View Movie'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">472</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'add_new_item'</span> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Add New Movie'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">473</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'add_new'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Add New'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">474</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'edit_item'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Edit Movie'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">475</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'update_item'</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Update Movie'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">476</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'search_items'</span> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Search Movie'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">477</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'not_found'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Not Found'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">478</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'not_found_in_trash'</span> &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Not found in Trash'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">479</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  );</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">480</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">481</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// Set other options for Custom Post Type</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">482</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">483</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable-2">$args</span> <span class="cm-operator">=</span> <span class="cm-keyword">array</span>(</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">484</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'label'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'movies'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">485</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'description'</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-variable">__</span>( <span class="cm-string">'Movie news and reviews'</span>, <span class="cm-string">'twentythirteen'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">486</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'labels'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-variable-2">$labels</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">487</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">// Features this CPT supports in Post Editor</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">488</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'supports'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-keyword">array</span>( <span class="cm-string">'title'</span>, <span class="cm-string">'editor'</span>, <span class="cm-string">'excerpt'</span>, <span class="cm-string">'author'</span>, <span class="cm-string">'thumbnail'</span>, <span class="cm-string">'comments'</span>, <span class="cm-string">'revisions'</span>, <span class="cm-string">'custom-fields'</span>, ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">489</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">// You can associate this CPT with a taxonomy or custom taxonomy. </span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">490</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'taxonomies'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-keyword">array</span>( <span class="cm-string">'genres'</span> ),</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">491</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">/* A hierarchical CPT is like Pages and can have</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">492</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">* Parent and child items. A non-hierarchical CPT</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">493</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">* is like Posts.</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">494</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-comment">*/</span> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">495</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'hierarchical'</span> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-atom">false</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">496</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'public'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">497</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'show_ui'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">498</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'show_in_menu'</span> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div class="" style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">499</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'show_in_nav_menus'</span> &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">500</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'show_in_admin_bar'</span> &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">501</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'menu_position'</span> &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-number">5</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">502</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'can_export'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">503</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'has_archive'</span> &nbsp; &nbsp; &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">504</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'exclude_from_search'</span> <span class="cm-operator">=&gt;</span> <span class="cm-atom">false</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">505</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'publicly_queryable'</span> &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">506</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-string">'capability_type'</span> &nbsp; &nbsp; <span class="cm-operator">=&gt;</span> <span class="cm-string">'page'</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">507</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-string">'show_in_rest'</span><span class="cm-operator">=&gt;</span> <span class="cm-atom">true</span>,</span></pre></div><div class="" style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">508</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-string">'rest_base'</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="cm-operator">=&gt;</span> <span class="cm-string">'result'</span>,</span></pre></div><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground" contenteditable="false"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" contenteditable="false" style="left: -33px; width: 33px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">509</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-string">'rest_controller_class'</span> <span class="cm-operator">=&gt;</span> <span class="cm-string">'WP_REST_Posts_Controller'</span>,</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">510</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;  );</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">511</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">512</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-comment">// Registering your Custom Post Type</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">513</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-variable">register_post_type</span>( <span class="cm-string">'movies'</span>, <span class="cm-variable-2">$args</span> );</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">514</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">515</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">516</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">517</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">/* Hook into the 'init' action so that the function</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">518</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">* Containing our post type registration is not </span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">519</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">* unnecessarily executed. </span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">520</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">*/</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">521</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> </span></pre></div><div class="" style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">522</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">add_action</span>( <span class="cm-string">'init'</span>, <span class="cm-string">'custom_post_type'</span>, <span class="cm-number">0</span> );</span></pre></div><div class="" style="position: relative;"><div class="CodeMirror-gutter-wrapper" contenteditable="false" style="left: -33px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 24px;">523</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px; border-bottom: 0px solid transparent; top: 9458px;"></div><div class="CodeMirror-gutters" style="height: 9488px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 32px;"></div></div></div></div>
+			<input type="hidden" name="action" value="update">
+			<input type="hidden" name="file" value="functions.php">
+			<input type="hidden" name="theme" value="escapade">
+		</div>
+			<div id="documentation" class="hide-if-no-js">
+		<label for="docs-list">Documentation:</label>
+		<select name="docs-list" id="docs-list"><option value="">Function Name…</option><option value="__">__()</option><option value="add_action">add_action()</option><option value="add_filter">add_filter()</option><option value="add_role">add_role()</option><option value="define">define()</option><option value="function_exists">function_exists()</option><option value="get_avatar_url">get_avatar_url()</option><option value="get_template_part">get_template_part()</option><option value="get_term_meta">get_term_meta()</option><option value="has_nav_menu">has_nav_menu()</option><option value="is_active_sidebar">is_active_sidebar()</option><option value="is_front_page">is_front_page()</option><option value="is_string">is_string()</option><option value="primer_array_replace_recursive">primer_array_replace_recursive()</option><option value="register_rest_field">register_rest_field()</option><option value="remove_action">remove_action()</option><option value="update_term_meta">update_term_meta()</option></select>		<input disabled="" id="docs-lookup" type="button" class="button" value="Look Up" onclick="if ( &#39;&#39; != jQuery(&#39;#docs-list&#39;).val() ) { window.open( &#39;https://api.wordpress.org/core/handbook/1.0/?function=&#39; + escape( jQuery( &#39;#docs-list&#39; ).val() ) + &#39;&amp;locale=en&amp;version=5.2.2&amp;redirect=true&#39;); }">
+		</div>
+	
+	<div>
+		<div class="editor-notices">
+					</div>
+			<p class="submit">
+			<input type="submit" name="submit" id="submit" class="button button-primary" value="Update File">			<span class="spinner"></span>
+		</p>
+		</div>
+		<script type="text/html" id="tmpl-wp-file-editor-notice">
+		<div class="notice inline notice-{{ data.type || 'info' }} {{ data.alt ? 'notice-alt' : '' }} {{ data.dismissible ? 'is-dismissible' : '' }} {{ data.classes || '' }}">
+			<# if ( 'php_error' === data.code ) { #>
+				<p>
+					Your PHP code changes were rolled back due to an error on line {{ data.line }} of file {{ data.file }}. Please fix and try saving again.				</p>
+				<pre>{{ data.message }}</pre>
+			<# } else if ( 'file_not_writable' === data.code ) { #>
+				<p>You need to make this file writable before you can save your changes. See <a href="https://codex.wordpress.org/Changing_File_Permissions">the Codex</a> for more information.</p>
+			<# } else { #>
+				<p>{{ data.message || data.code }}</p>
+
+				<# if ( 'lint_errors' === data.code ) { #>
+					<p>
+						<# var elementId = 'el-' + String( Math.random() ); #>
+						<input id="{{ elementId }}"  type="checkbox">
+						<label for="{{ elementId }}">Update anyway, even though it might break your site?</label>
+					</p>
+				<# } #>
+			<# } #>
+			<# if ( data.dismissible ) { #>
+				<button type="button" class="notice-dismiss"><span class="screen-reader-text">Dismiss</span></button>
+			<# } #>
+		</div>
+	</script>
+		</form>
+	<br class="clear">
+</div>
+
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter" role="contentinfo">
+		<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Thank you for creating with <a href="https://wordpress.org/">WordPress</a>.</span>	</p>
+	<p id="footer-upgrade" class="alignright">
+		Version 5.2.2	</p>
+	<div class="clear"></div>
+</div>
+	<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<button type="button" class="wp-auth-check-close button-link"><span class="screen-reader-text">Close dialog</span></button>
+			<div id="wp-auth-check-form" class="loading" data-src="http://appdev.psdtohubspot.com/wp-login.php?interim-login=1&amp;wp_lang=en"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Session expired</b></p>
+		<p><a href="http://appdev.psdtohubspot.com/wp-login.php" target="_blank">Please log in again.</a>
+		The login page will open in a new tab. After logging in you can close it and return to this page.</p>
+	</div>
+	</div>
+	</div>
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var commonL10n = {"warnDelete":"You are about to permanently delete these items from your site.\nThis action cannot be undone.\n 'Cancel' to stop, 'OK' to delete.","dismiss":"Dismiss this notice.","collapseMenu":"Collapse Main menu","expandMenu":"Expand Main menu"};/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/load-scripts(1).php"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/wp-polyfill.min.js"></script>
+<script type="text/javascript">
+( 'fetch' in window ) || document.write( '<script src="http://appdev.psdtohubspot.com/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="http://appdev.psdtohubspot.com/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="http://appdev.psdtohubspot.com/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="http://appdev.psdtohubspot.com/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/hooks.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var heartbeatSettings = {"nonce":"13fc907130"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/heartbeat.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var authcheckL10n = {"beforeunload":"Your session has expired. You can log in again from this page or go to the login page.","interval":"180"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/wp-auth-check.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/widget.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/mouse.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/sortable.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/sprintf.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var podsLocalizedStrings = {"__%s is required.":"%s is required.","__This field is required.":"This field is required.","__Add":"Add","__Add New":"Add New","__Add New Record":"Add New Record","__Added!":"Added!","__Added! Choose another or <a href=\"#\">close this box<\/a>":"Added! Choose another or <a href=\"#\">close this box<\/a>","__Copy":"Copy","__Reorder":"Reorder","__Remove":"Remove","__Deselect":"Deselect","__Download":"Download","__View":"View","__Edit":"Edit","__Search":"Search","__Navigating away from this page will discard any changes you have made.":"Navigating away from this page will discard any changes you have made.","__Some fields have changes that were not saved yet, please save them or cancel the changes before saving the Pod.":"Some fields have changes that were not saved yet, please save them or cancel the changes before saving the Pod.","__Unable to process request, please try again.":"Unable to process request, please try again.","__Error uploading file: ":"Error uploading file: ","__Allowed Files":"Allowed Files","__The Title":"The Title","__Select from existing":"Select from existing","__You can only select":"You can only select","__%s item":"%s item","__%s items":"%s items","__Icon":"Icon","debug":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/pods-i18n.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/backbone.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/backbone.radio.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/backbone.marionette.min.js"></script>
+<script type="text/javascript">
+PodsMn = Backbone.Marionette.noConflict();
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/wp-backbone.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpMediaModelsL10n = {"settings":{"ajaxurl":"\/wp-admin\/admin-ajax.php","post":{"id":0}}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/media-models.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var pluploadL10n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"Sorry, this file type is not permitted for security reasons.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload 1 file.","http_error":"HTTP error.","upload_failed":"Upload failed.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File canceled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the trash.","error_uploading":"\u201c%s\u201d has failed to upload."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/wp-plupload.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/wp-mediaelement.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpApiSettings = {"root":"http:\/\/appdev.psdtohubspot.com\/wp-json\/","nonce":"2ace168250","versionString":"wp\/v2\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/api-request.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/media-views.min.js"></script>
+<script type="text/javascript" src="./Edit Themes ‹ My blog — WordPress_files/pods-dfv.min.js"></script>
+
+<div class="clear"></div></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+
+
+<div id="wp-a11y-speak-polite" aria-live="polite" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div><div id="wp-a11y-speak-assertive" aria-live="assertive" aria-relevant="additions text" aria-atomic="true" class="screen-reader-text wp-a11y-speak-region"></div></body><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
