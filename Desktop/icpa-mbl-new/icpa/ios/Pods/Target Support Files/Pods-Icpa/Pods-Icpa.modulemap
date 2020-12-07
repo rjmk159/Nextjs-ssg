@@ -1,0 +1,6 @@
+module Pods_Icpa {
+  umbrella header "Pods-Icpa-umbrella.h"
+
+  export *
+  module * { export * }
+}
