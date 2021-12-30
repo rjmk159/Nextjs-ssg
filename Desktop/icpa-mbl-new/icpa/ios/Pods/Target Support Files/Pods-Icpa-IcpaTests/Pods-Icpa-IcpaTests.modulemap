@@ -1,6 +1,0 @@
-module Pods_Icpa_IcpaTests {
-  umbrella header "Pods-Icpa-IcpaTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
